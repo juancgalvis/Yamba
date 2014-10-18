@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- presionado -->
+    <item android:state_pressed="true"
+        android:state_window_focused="true"
+        android:drawable="@drawable/send2" />
+
+    <!--
+    <item android:state_focused="true"
+        android:state_window_focused="true"
+        android:drawable="@drawable/seek_thumb_selected" />
+
+
+    <item android:state_selected="true"
+        android:state_window_focused="true"
+        android:drawable="@drawable/seek_thumb_selected" />-->
+
+    <!-- estado "normal" -->
+    <item android:drawable="@drawable/send" />
+
+</selector><!-- From: file:/home/telematica/.ComputacionMovil/Desarrollos/Yamba/app/src/main/res/drawable/button_image.xml -->
